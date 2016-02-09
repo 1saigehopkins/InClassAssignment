@@ -1,0 +1,35 @@
+body {
+  background-color: rgba(255, 0, 0, 0.15);
+}
+section p {
+  background-color: rgba(0, 80, 130, 0.15);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+div {
+  background-color: rgba(50, 255, 0, 0.5);
+  height: 75%;
+  width:100%;
+}
+
+
+@media all and (min-width:1000px) {
+/*only for weirdos*/
+  h1 {
+    color: green;
+    height: auto;
+  }
+
+}
+
+p {
+  text-align: center;
+  padding: 15px;
+  color: violet;
+}
+
+#space {
+  width: 376px;
+  height: 15px:
+}
