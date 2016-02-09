@@ -1,35 +1,47 @@
+/* default style is for Chrome on Mac 2560x1440*/
+
 body {
-  background-color: rgba(255, 0, 0, 0.15);
-}
-section p {
-  background-color: rgba(0, 80, 130, 0.15);
-  margin-left: 10px;
-  margin-right: 10px;
+  background-color: rgba(0, 0, 255, 0.5);
 }
 
 div {
   background-color: rgba(50, 255, 0, 0.5);
-  height: 75%;
+  height: 175%;
   width:100%;
+  align-items: center;
+
 }
 
+ul {
+  list-style-type: none;
+  padding: 20px;
+}
 
-@media all and (min-width:1000px) {
-/*only for weirdos*/
-  h1 {
-    color: green;
+@media all and (max-width:400px) {
+/*only for iPhone6plus*/
+  p {
+    font-style: italic;
     height: auto;
+    font-size: 80px;
   }
 
-}
-
-p {
-  text-align: center;
-  padding: 15px;
-  color: violet;
 }
 
 #space {
   width: 376px;
   height: 15px:
+}
+
+section {
+  width: 100%;
+  height: 300px;
+}
+
+p {
+  background-color: rgba(0, 80, 130, 0.15);
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  padding: 15px;
+  color: violet;
 }
